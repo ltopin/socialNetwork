@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "validator": "^10.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "startserv": "node server.js",
+    "startserver": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +31,20 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltopin/socialNetwork.git"
+  },
+  "author": "Topin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltopin/socialNetwork/issues"
+  },
+  "homepage": "https://github.com/ltopin/socialNetwork#readme"
 }
